@@ -1,0 +1,13 @@
+C:\Nauka\AdventOfCode\4\BingoSquid\BingoSquid\obj\Debug\netcoreapp3.1\BingoSquid.AssemblyInfoInputs.cache
+C:\Nauka\AdventOfCode\4\BingoSquid\BingoSquid\obj\Debug\netcoreapp3.1\BingoSquid.AssemblyInfo.cs
+C:\Nauka\AdventOfCode\4\BingoSquid\BingoSquid\obj\Debug\netcoreapp3.1\BingoSquid.csproj.CoreCompileInputs.cache
+C:\Nauka\AdventOfCode\4\BingoSquid\BingoSquid\bin\Debug\netcoreapp3.1\BingoSquid.exe
+C:\Nauka\AdventOfCode\4\BingoSquid\BingoSquid\bin\Debug\netcoreapp3.1\BingoSquid.deps.json
+C:\Nauka\AdventOfCode\4\BingoSquid\BingoSquid\bin\Debug\netcoreapp3.1\BingoSquid.runtimeconfig.json
+C:\Nauka\AdventOfCode\4\BingoSquid\BingoSquid\bin\Debug\netcoreapp3.1\BingoSquid.runtimeconfig.dev.json
+C:\Nauka\AdventOfCode\4\BingoSquid\BingoSquid\bin\Debug\netcoreapp3.1\BingoSquid.dll
+C:\Nauka\AdventOfCode\4\BingoSquid\BingoSquid\bin\Debug\netcoreapp3.1\BingoSquid.pdb
+C:\Nauka\AdventOfCode\4\BingoSquid\BingoSquid\obj\Debug\netcoreapp3.1\BingoSquid.dll
+C:\Nauka\AdventOfCode\4\BingoSquid\BingoSquid\obj\Debug\netcoreapp3.1\BingoSquid.pdb
+C:\Nauka\AdventOfCode\4\BingoSquid\BingoSquid\obj\Debug\netcoreapp3.1\BingoSquid.genruntimeconfig.cache
+C:\Nauka\AdventOfCode\4\BingoSquid\BingoSquid\obj\Debug\netcoreapp3.1\BingoSquid.csprojAssemblyReference.cache
