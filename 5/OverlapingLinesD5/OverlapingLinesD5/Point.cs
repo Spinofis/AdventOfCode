@@ -4,7 +4,7 @@ using System.Text;
 
 namespace OverlapingLinesD5
 {
-    struct Point
+    public struct Point
     {
         public int X { get; }
         public int Y { get; }

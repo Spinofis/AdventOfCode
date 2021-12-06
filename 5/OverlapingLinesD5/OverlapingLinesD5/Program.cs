@@ -14,6 +14,7 @@ namespace OverlapingLinesD5
                 line.Print();
             }
             Console.WriteLine($"Lines count: {lines.Count}");
+            OverlappingLinesDetector detector = new OverlappingLinesDetector(lines);
         }
     }
 }

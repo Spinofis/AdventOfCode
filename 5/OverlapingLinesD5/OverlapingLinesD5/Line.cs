@@ -5,7 +5,7 @@ using System.Text;
 
 namespace OverlapingLinesD5
 {
-    class Line
+    public class Line
     {
         public Point A { get; set; }
         public Point B { get; set; }
@@ -30,13 +30,15 @@ namespace OverlapingLinesD5
             Console.Write("\n");
         }
 
-        public List<int> GetLineXs() { }
+        public List<int> GetXs() => Enumerable.Range(A.X, B.X).ToList();
 
-        public List<int> GetLineYs() { }
+        public List<int> GetYs() => GetXs().Select(x => GetY(x)).ToList();
 
-        public int GetY()
+        public int GetY(int x)
         {
-            int yA = Math.Min(A.Y, B.Y);
+            int a = (A.Y - B.Y) / (A.X - B.X);
+            int b = A.Y - a * A.X;
+            return a * x + b;
         }
     }
 }
