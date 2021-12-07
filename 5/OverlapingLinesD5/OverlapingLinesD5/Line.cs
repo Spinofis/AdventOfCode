@@ -30,9 +30,11 @@ namespace OverlapingLinesD5
             Console.Write("\n");
         }
 
-        public List<int> GetXs() => Enumerable.Range(A.X, B.X).ToList();
-
-        public List<int> GetYs() => GetXs().Select(x => GetY(x)).ToList();
+        public IEnumerable<Point> GetPoints()
+        {
+            foreach (var x in Enumerable.Range(A.X, B.X - A.X + 1))
+                yield return new Point(x, GetY(x));
+        }
 
         public int GetY(int x)
         {

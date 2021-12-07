@@ -15,6 +15,9 @@ namespace OverlapingLinesD5
             }
             Console.WriteLine($"Lines count: {lines.Count}");
             OverlappingLinesDetector detector = new OverlappingLinesDetector(lines);
+            int totalPoints = detector.GetOverlappingPointsCount();
+            Console.WriteLine($"Points count: {totalPoints}");
+            Console.ReadKey();
         }
     }
 }
