@@ -1,39 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Nauka\\AdventOfCode\\5\\OverlapingLinesD5\\OverlapingLines5DTests\\OverlapingLines5DTests.csproj": {}
+    "C:\\Repo\\AdventOfCode\\5\\OverlapingLinesD5\\OverlapingLines5DTests\\OverlapingLines5DTests.csproj": {}
   },
   "projects": {
-    "C:\\Nauka\\AdventOfCode\\5\\OverlapingLinesD5\\OverlapingLines5DTests\\OverlapingLines5DTests.csproj": {
+    "C:\\Repo\\AdventOfCode\\5\\OverlapingLinesD5\\OverlapingLines5DTests\\OverlapingLines5DTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Nauka\\AdventOfCode\\5\\OverlapingLinesD5\\OverlapingLines5DTests\\OverlapingLines5DTests.csproj",
+        "projectUniqueName": "C:\\Repo\\AdventOfCode\\5\\OverlapingLinesD5\\OverlapingLines5DTests\\OverlapingLines5DTests.csproj",
         "projectName": "OverlapingLines5DTests",
-        "projectPath": "C:\\Nauka\\AdventOfCode\\5\\OverlapingLinesD5\\OverlapingLines5DTests\\OverlapingLines5DTests.csproj",
-        "packagesPath": "C:\\Users\\Bartek\\.nuget\\packages\\",
-        "outputPath": "C:\\Nauka\\AdventOfCode\\5\\OverlapingLinesD5\\OverlapingLines5DTests\\obj\\",
+        "projectPath": "C:\\Repo\\AdventOfCode\\5\\OverlapingLinesD5\\OverlapingLines5DTests\\OverlapingLines5DTests.csproj",
+        "packagesPath": "C:\\Users\\bartlomiej.piepiora\\.nuget\\packages\\",
+        "outputPath": "C:\\Repo\\AdventOfCode\\5\\OverlapingLinesD5\\OverlapingLines5DTests\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Bartek\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
+          "C:\\Users\\bartlomiej.piepiora\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "D:\\programy\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/bakkspzoo/_packaging/Dm.WebApi/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/bakkspzoo/_packaging/Dm.Winforms/nuget/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Nauka\\AdventOfCode\\5\\OverlapingLinesD5\\OverlapingLinesD5\\OverlapingLinesD5.csproj": {
-                "projectPath": "C:\\Nauka\\AdventOfCode\\5\\OverlapingLinesD5\\OverlapingLinesD5\\OverlapingLinesD5.csproj"
+              "C:\\Repo\\AdventOfCode\\5\\OverlapingLinesD5\\OverlapingLinesD5\\OverlapingLinesD5.csproj": {
+                "projectPath": "C:\\Repo\\AdventOfCode\\5\\OverlapingLinesD5\\OverlapingLinesD5\\OverlapingLinesD5.csproj"
               }
             }
           }
@@ -46,6 +46,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -75,37 +76,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Nauka\\AdventOfCode\\5\\OverlapingLinesD5\\OverlapingLinesD5\\OverlapingLinesD5.csproj": {
+    "C:\\Repo\\AdventOfCode\\5\\OverlapingLinesD5\\OverlapingLinesD5\\OverlapingLinesD5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Nauka\\AdventOfCode\\5\\OverlapingLinesD5\\OverlapingLinesD5\\OverlapingLinesD5.csproj",
+        "projectUniqueName": "C:\\Repo\\AdventOfCode\\5\\OverlapingLinesD5\\OverlapingLinesD5\\OverlapingLinesD5.csproj",
         "projectName": "OverlapingLinesD5",
-        "projectPath": "C:\\Nauka\\AdventOfCode\\5\\OverlapingLinesD5\\OverlapingLinesD5\\OverlapingLinesD5.csproj",
-        "packagesPath": "C:\\Users\\Bartek\\.nuget\\packages\\",
-        "outputPath": "C:\\Nauka\\AdventOfCode\\5\\OverlapingLinesD5\\OverlapingLinesD5\\obj\\",
+        "projectPath": "C:\\Repo\\AdventOfCode\\5\\OverlapingLinesD5\\OverlapingLinesD5\\OverlapingLinesD5.csproj",
+        "packagesPath": "C:\\Users\\bartlomiej.piepiora\\.nuget\\packages\\",
+        "outputPath": "C:\\Repo\\AdventOfCode\\5\\OverlapingLinesD5\\OverlapingLinesD5\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Bartek\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
+          "C:\\Users\\bartlomiej.piepiora\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "D:\\programy\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/bakkspzoo/_packaging/Dm.WebApi/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/bakkspzoo/_packaging/Dm.Winforms/nuget/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -117,6 +118,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -132,7 +134,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

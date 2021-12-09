@@ -30,5 +30,23 @@ namespace OverlapingLines5DTests
             int y = line.GetY(x);
             Assert.AreEqual(y, expectedY);
         }
+
+        [Test]
+        [TestCase(770, 356)]
+        public void GetY_ShouldReturnY_SameX(int x, int expectedY)
+        {
+            Line line = new Line(new Point(770, 318), new Point(770, 437));
+            int y = line.GetY(x);
+            Assert.Throws;
+        }
+
+        [Test]
+        [TestCase(471, 914)]
+        public void GetY_ShouldReturnY_SameY(int x, int expectedY)
+        {
+            Line line = new Line(new Point(543, 914), new Point(359, 914));
+            int y = line.GetY(x);
+            Assert.AreEqual(y, expectedY);
+        }
     }
 }

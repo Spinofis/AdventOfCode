@@ -32,12 +32,17 @@ namespace OverlapingLinesD5
 
         public IEnumerable<Point> GetPoints()
         {
+            if (A.X == B.X)
+                foreach (int y in Enumerable.Range(Math.Min(A.Y, B.Y), Math.Abs(A.Y - B.Y) + 1))
+                    yield return new Point(A.X, y);
             foreach (var x in Enumerable.Range(A.X, B.X - A.X + 1))
                 yield return new Point(x, GetY(x));
         }
 
         public int GetY(int x)
         {
+            if (A.X == B.X)
+                throw new InvalidOperationException("A.X and B.X cant be equal!");
             int a = (A.Y - B.Y) / (A.X - B.X);
             int b = A.Y - a * A.X;
             return a * x + b;
