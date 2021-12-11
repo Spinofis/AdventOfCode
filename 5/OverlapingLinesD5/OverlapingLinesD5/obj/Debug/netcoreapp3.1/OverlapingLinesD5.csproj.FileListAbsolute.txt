@@ -4,7 +4,6 @@ C:\Nauka\AdventOfCode\5\OverlapingLinesD5\OverlapingLinesD5\bin\Debug\netcoreapp
 C:\Nauka\AdventOfCode\5\OverlapingLinesD5\OverlapingLinesD5\bin\Debug\netcoreapp3.1\OverlapingLinesD5.runtimeconfig.dev.json
 C:\Nauka\AdventOfCode\5\OverlapingLinesD5\OverlapingLinesD5\bin\Debug\netcoreapp3.1\OverlapingLinesD5.dll
 C:\Nauka\AdventOfCode\5\OverlapingLinesD5\OverlapingLinesD5\bin\Debug\netcoreapp3.1\OverlapingLinesD5.pdb
-C:\Nauka\AdventOfCode\5\OverlapingLinesD5\OverlapingLinesD5\obj\Debug\netcoreapp3.1\OverlapingLinesD5.csprojAssemblyReference.cache
 C:\Nauka\AdventOfCode\5\OverlapingLinesD5\OverlapingLinesD5\obj\Debug\netcoreapp3.1\OverlapingLinesD5.AssemblyInfoInputs.cache
 C:\Nauka\AdventOfCode\5\OverlapingLinesD5\OverlapingLinesD5\obj\Debug\netcoreapp3.1\OverlapingLinesD5.AssemblyInfo.cs
 C:\Nauka\AdventOfCode\5\OverlapingLinesD5\OverlapingLinesD5\obj\Debug\netcoreapp3.1\OverlapingLinesD5.csproj.CoreCompileInputs.cache

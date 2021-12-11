@@ -30,22 +30,29 @@ namespace OverlapingLinesD5
             Console.Write("\n");
         }
 
-        public IEnumerable<Point> GetPoints()
+        public List<Point> GetPoints()
         {
+            List<Point> points = new List<Point>();
             if (A.X == B.X)
+            {
                 foreach (int y in Enumerable.Range(Math.Min(A.Y, B.Y), Math.Abs(A.Y - B.Y) + 1))
-                    yield return new Point(A.X, y);
+                    points.Add(new Point(A.X, y));
+                return points;
+            }
             foreach (var x in Enumerable.Range(A.X, B.X - A.X + 1))
-                yield return new Point(x, GetY(x));
+                points.Add(new Point(x, GetY(x)));
+            return points;
         }
 
         public int GetY(int x)
         {
             if (A.X == B.X)
-                throw new InvalidOperationException("A.X and B.X cant be equal!");
+                throw new ArgumentException("A.X and B.X cant be equal!");
             int a = (A.Y - B.Y) / (A.X - B.X);
             int b = A.Y - a * A.X;
             return a * x + b;
         }
+
+        public bool IsStraightLine() => A.X == B.X || A.Y == B.Y;
     }
 }

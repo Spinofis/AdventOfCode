@@ -6,7 +6,7 @@ namespace OverlapingLinesD5
     {
         static void Main(string[] args)
         {
-            InputReader reader = new InputReader(@"C:\Repo\AdventOfCode\5\points.txt");
+            InputReader reader = new InputReader(@"C:\Nauka\AdventOfCode\5\points.txt");
             InputParser parser = new InputParser();
             var lines = parser.GetLines(reader.Read());
             foreach (var line in lines)
@@ -14,9 +14,10 @@ namespace OverlapingLinesD5
                 line.Print();
             }
             Console.WriteLine($"Lines count: {lines.Count}");
-            OverlappingLinesDetector detector = new OverlappingLinesDetector(lines);
-            int totalPoints = detector.GetOverlappingPointsCount();
-            Console.WriteLine($"Points count: {totalPoints}");
+            Map map = new MapAllLines(lines);
+            //map.Print();
+            int totalPoints = map.GetOverlappingPointsCount();
+            Console.WriteLine($"Overlapping points count: {totalPoints}");
             Console.ReadKey();
         }
     }
