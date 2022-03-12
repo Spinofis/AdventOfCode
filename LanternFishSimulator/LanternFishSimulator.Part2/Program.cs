@@ -4,10 +4,12 @@ namespace LanternFishSimulator.Part2
 {
     class Program
     {
-        static async void Main(string[] args)
+        static void Main(string[] args)
         {
-            await InputParser.GetPopulation(@"C:\Nauka\AdventOfCode\LanternFishSimulator\input_part1.txt");
-            Console.WriteLine("Hello World!");
+            int[] initPopulation =  InputParser.GetPopulation(@"C:\Nauka\AdventOfCode\LanternFishSimulator\input_part1.txt");
+            Simulator simulator = new Simulator(initPopulation);
+            int[] population = simulator.GetPopulation(18, true);
+            Console.Read();
         }
     }
 }

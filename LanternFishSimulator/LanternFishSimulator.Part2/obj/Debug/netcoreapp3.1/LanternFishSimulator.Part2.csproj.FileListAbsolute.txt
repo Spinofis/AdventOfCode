@@ -1,0 +1,13 @@
+C:\Nauka\AdventOfCode\LanternFishSimulator\LanternFishSimulator.Part2\obj\Debug\netcoreapp3.1\LanternFishSimulator.Part2.csprojAssemblyReference.cache
+C:\Nauka\AdventOfCode\LanternFishSimulator\LanternFishSimulator.Part2\obj\Debug\netcoreapp3.1\LanternFishSimulator.Part2.AssemblyInfoInputs.cache
+C:\Nauka\AdventOfCode\LanternFishSimulator\LanternFishSimulator.Part2\obj\Debug\netcoreapp3.1\LanternFishSimulator.Part2.AssemblyInfo.cs
+C:\Nauka\AdventOfCode\LanternFishSimulator\LanternFishSimulator.Part2\obj\Debug\netcoreapp3.1\LanternFishSimulator.Part2.csproj.CoreCompileInputs.cache
+C:\Nauka\AdventOfCode\LanternFishSimulator\LanternFishSimulator.Part2\bin\Debug\netcoreapp3.1\LanternFishSimulator.Part2.exe
+C:\Nauka\AdventOfCode\LanternFishSimulator\LanternFishSimulator.Part2\bin\Debug\netcoreapp3.1\LanternFishSimulator.Part2.deps.json
+C:\Nauka\AdventOfCode\LanternFishSimulator\LanternFishSimulator.Part2\bin\Debug\netcoreapp3.1\LanternFishSimulator.Part2.runtimeconfig.json
+C:\Nauka\AdventOfCode\LanternFishSimulator\LanternFishSimulator.Part2\bin\Debug\netcoreapp3.1\LanternFishSimulator.Part2.runtimeconfig.dev.json
+C:\Nauka\AdventOfCode\LanternFishSimulator\LanternFishSimulator.Part2\bin\Debug\netcoreapp3.1\LanternFishSimulator.Part2.dll
+C:\Nauka\AdventOfCode\LanternFishSimulator\LanternFishSimulator.Part2\bin\Debug\netcoreapp3.1\LanternFishSimulator.Part2.pdb
+C:\Nauka\AdventOfCode\LanternFishSimulator\LanternFishSimulator.Part2\obj\Debug\netcoreapp3.1\LanternFishSimulator.Part2.dll
+C:\Nauka\AdventOfCode\LanternFishSimulator\LanternFishSimulator.Part2\obj\Debug\netcoreapp3.1\LanternFishSimulator.Part2.pdb
+C:\Nauka\AdventOfCode\LanternFishSimulator\LanternFishSimulator.Part2\obj\Debug\netcoreapp3.1\LanternFishSimulator.Part2.genruntimeconfig.cache

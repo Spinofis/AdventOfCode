@@ -6,6 +6,5 @@ namespace LanternFishSimulator.Part2
 {
     class Population
     {
-       public int 
     }
 }

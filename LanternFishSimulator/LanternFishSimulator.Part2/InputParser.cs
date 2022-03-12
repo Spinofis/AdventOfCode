@@ -9,12 +9,12 @@ namespace LanternFishSimulator.Part2
 {
     class InputParser
     {
-        public static async Task<List<int>> GetPopulation(string path)
+        public static int[] GetPopulation(string path)
         {
-            string input = await File.ReadAllTextAsync(path);
+            string input = File.ReadAllText(path);
             return input.Split(',')
                 .Select(x => Convert.ToInt32(x))
-                .ToList();
+                .ToArray();
         }
     }
 }
