@@ -8,39 +8,37 @@ namespace LanternFishSimulator.Part2
     public class Simulator
     {
         const int FISH_DAYS = 9;
-        private int[] initialPopulation;
+        private long[] initialFishes;
 
-        public Simulator(int[] fishes)
+        public Simulator(long[] fishes)
         {
-            initialPopulation = new int[FISH_DAYS];
+            initialFishes = new long[FISH_DAYS];
             for (int i = 0; i < FISH_DAYS; i++)
-                initialPopulation[i] = fishes.Where(p => p == i).Count();
+                initialFishes[i] = fishes.Where(p => p == i).Count();
         }
 
-        public int[] GetPopulation(int day, bool printPopulation = false)
+        public long[] GetNumberOfFishEachDay(int day, bool printDay = false)
         {
-            int[] population = new int[FISH_DAYS];
+            long[] fishes = new long[FISH_DAYS];
             for (int i = 0; i < FISH_DAYS; i++)
-                population[i] = initialPopulation[i];
+                fishes[i] = initialFishes[i];
             for (int i = 0; i < day; i++)
-                population = ProcessDay(population);
-            if (printPopulation)
-                foreach (var f in population)
-                    Console.Write(f + ", ");
-            Console.WriteLine();
-            return initialPopulation;
+                fishes = ProcessDay(fishes);
+
+            return fishes;
         }
 
-        public int[] ProcessDay(int[] population)
+        public long[] ProcessDay(long[] fishes)
         {
-            int[] prevPopulation = new int[FISH_DAYS];
-            for (int i = 0; i < FISH_DAYS; i++)
-                prevPopulation[i] = population[i];
-            for (int i = 0; i < FISH_DAYS - 1; i++)
-                population[i] = prevPopulation[i + 1];
-            population[5] += prevPopulation[0];
-            population[7] += prevPopulation[0];
-            return population;
+            long[] prevFishes = new long[FISH_DAYS];
+            for (long i = 0; i < FISH_DAYS; i++)
+                prevFishes[i] = fishes[i];
+            for (long i = 0; i < FISH_DAYS - 1; i++)
+                fishes[i] = prevFishes[i + 1];
+            fishes[8] = 0;
+            fishes[6] += prevFishes[0];
+            fishes[8] += prevFishes[0];
+            return fishes;
         }
     }
 }

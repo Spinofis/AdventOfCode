@@ -9,11 +9,11 @@ namespace LanternFishSimulator.Part2
 {
     class InputParser
     {
-        public static int[] GetPopulation(string path)
+        public static long[] GetPopulation(string path)
         {
             string input = File.ReadAllText(path);
             return input.Split(',')
-                .Select(x => Convert.ToInt32(x))
+                .Select(x => Convert.ToInt64(x))
                 .ToArray();
         }
     }

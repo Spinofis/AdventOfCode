@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace LanternFishSimulator.Part2
 {
@@ -6,9 +7,10 @@ namespace LanternFishSimulator.Part2
     {
         static void Main(string[] args)
         {
-            int[] initPopulation =  InputParser.GetPopulation(@"C:\Nauka\AdventOfCode\LanternFishSimulator\input_part1.txt");
+            long[] initPopulation = InputParser.GetPopulation(@"C:\Nauka\AdventOfCode\LanternFishSimulator\input_part2.txt");
             Simulator simulator = new Simulator(initPopulation);
-            int[] population = simulator.GetPopulation(18, true);
+            long[] fishes = simulator.GetNumberOfFishEachDay(256);
+            Console.WriteLine($"Total population count {fishes.Sum()}");
             Console.Read();
         }
     }
